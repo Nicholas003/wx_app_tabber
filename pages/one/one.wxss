@@ -1,0 +1,12 @@
+/* pages/one/one.wxss */
+page{
+  height: 1000px
+}
+.one{
+  height: 90vh;
+  background: red
+}
+.two{
+  height: 90vh;
+  background: blue
+}

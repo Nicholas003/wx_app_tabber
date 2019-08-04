@@ -1,0 +1,3 @@
+/* component/tab.wxss */
+@import "../colorui/colorui.wxss";
+@import "../colorui/animation.wxss";

@@ -1,0 +1,9 @@
+<view wx:if="{{show}}" class="cu-bar tabbar bg-white shadow foot {{show_class?'animation-slide-bottom':'animation-slide-bottoms animation-reverse'}}" style="background:{{tab_data.backgroundColor}}">
+  <view class="action" bindtap="NavChange" data-data="{{item}}" data-url="{{item.pagePath}}" data-index="{{index}}" data-cur="basics" wx:for="{{tab_data.list}}" wx:key>
+    <view class='cuIcon-cu-image'>
+      <image src="{{item.selectedIconPath}}" wx:if="{{selected_index == index}}"></image>
+      <image src="{{item.iconPath}}" wx:else></image>
+    </view>
+    <view  style="color:{{selected_index==index?tab_data.selectedColor:tab_data.color}}">{{item.text}}</view>
+  </view>
+</view>

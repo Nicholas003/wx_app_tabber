@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="click"> click </button>
+  </view>
+</view>
+<tab 
+tab_data="{{tab_data}}" 
+is_show="{{show}}"
+bind:second_click="second"
+/>

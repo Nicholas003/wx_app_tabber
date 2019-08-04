@@ -1,0 +1,4 @@
+<!--pages/one/one.wxml-->
+<view class="one"></view>
+<view class="two"></view>
+<tab current_tab="{{tab}}" bind:second_click="second"/>
